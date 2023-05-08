@@ -18,7 +18,7 @@ class CreateSalesTable extends Migration
             $table->string("nombre_vendedor");
             $table->string("nombre_cliente");
             $table->string("nombre_producto");
-            $table->string("precio");
+            $table->integer("precio");
             $table->date("fecha_compra");
             $table->timestamps();
         });
