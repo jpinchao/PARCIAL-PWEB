@@ -49,5 +49,7 @@ class SalesSeeder extends Seeder
             'precio' => '10',
             'fecha_compra' => '2021-05-07',
         ]);
+        
+
     }
 }

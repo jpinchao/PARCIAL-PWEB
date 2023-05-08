@@ -28,6 +28,7 @@ class SalesController extends Controller
         $sales->precio = $request->precio;
         $sales->fecha_compra = $request->fecha_compra;
         $sales->save();
+        return $sales;
     }
 
     public function show()
